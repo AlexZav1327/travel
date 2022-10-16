@@ -147,6 +147,15 @@ body {
   text-transform: uppercase;
 }
 
+.button {
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+}
+
+.button:hover {
+  background-color: #0f8da3;
+}
+
 /* ---------- preview ---------- */
 
 .preview {
@@ -246,5 +255,47 @@ body {
 /* ---------- steps ---------- */
 
 .steps {
-  padding: 80px 0 0 0;
+  margin: 80px 0 97px 0;
+}
+
+.steps__header {
+  margin: 0 0 40px 0;
+}
+
+.steps__body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.steps__column {
+  padding: 0 11px;
+}
+
+.steps__column:first-child {
+  margin: 0 71px 0 0;
+}
+
+.icon-box-steps {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 30px 0;
+}
+
+.icon-box-steps__icon {
+  width: 100px;
+  height: 100px;
+  background: #F2785C;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+	align-items: center;
+}
+
+.item-steps__text {
+  font-family: "Aleo";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0D606F;
+  text-align: center;
 }
