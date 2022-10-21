@@ -266,21 +266,21 @@ body {
   justify-content: space-between;
 }
 
-.steps__column {
+.steps__item {
   padding: 0 11px;
 }
 
-.steps__column:first-child {
+.steps__item:first-child {
   margin: 0 71px 0 0;
 }
 
-.icon-box-steps {
+.item-steps__icon-box {
   display: flex;
   justify-content: center;
   margin: 0 0 30px 0;
 }
 
-.icon-box-steps__icon {
+.icon-box-item-steps__icon {
   width: 100px;
   height: 100px;
   background: #f2785c;
@@ -382,4 +382,103 @@ body {
 }
 
 /* ---------- stories ---------- */
+
+.stories {
+  position: relative;
+  margin: 0 0 55px 0;
+}
+
+.stories__content-block {
+  position: relative;
+  z-index: 5;
+}
+
+.stories__header {
+  margin: 0 0 80px 0;
+}
+
+.stories__image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0.3;
+}
+
+.stories__item {
+  display: flex;
+  margin: 0 0 30px 0;
+}
+
+.stories__item:last-child {
+  margin: 0 0 40px 0;
+}
+
+.item-stories__image-container {
+  position: relative;
+  flex: 0 0 33.333%;
+  min-height: 250px;
+}
+
+.item-stories__image {
+  filter: drop-shadow(0px 4px 4px #0D606F);
+  border-radius: 16px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.item-stories__text-block {
+  font-family: "Aleo";
+  font-weight: 400;
+  color: #0D606F;
+  margin: 0 0 0 40px;
+}
+
+.text-block-item-stories__title {
+  font-size: 35px;
+  line-height: 42px;
+  margin: 0 0 24px 0;
+}
+
+.text-block-item-stories__text {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.text-block-item-stories__text__link {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: inherit;
+  text-decoration: underline;
+}
+
+.stories__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 31px 0 81px;
+  background: #0d606f;
+  background-image: url(assets/images/stories-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: 33.5px 50%;
+  box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08),
+    0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  width: 228px;
+  height: 59px;
+  margin: 0 auto;
+  font-size: 24px;
+  line-height: 32px;
+  color: inherit;
+}
+
+/* ---------- footer ---------- */
 
